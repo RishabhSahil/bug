@@ -61,7 +61,7 @@ document.getElementById('frmsearch').onsubmit = function() {
         console.log(query)
     }
     else{
-        window.location = 'https://rishabhsahil.github.io/search.html?q=' + query
+        window.location = 'https://rishabhsahil.github.io/search?q=' + query
         return false;
 
     }
